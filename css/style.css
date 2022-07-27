@@ -1,0 +1,282 @@
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+}
+body{
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  background:#fff;
+  font-size: 17px;
+  color:#19191B;
+/* font-family: 'Mulish', sans-serif; */
+}
+.button{
+  padding: 19px 60px;
+  border-radius: 10px;
+  border: 0;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+/* Контейнер */
+.containerFull{
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.container{
+  width: 100%;
+  max-width: 1070px;
+  margin: 0 auto;
+}
+/* Шапка сайту */
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 145px;
+  width: 100%;
+  background: rgba(255, 113, 67, 0.27);
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ 
+}
+header .container, footer .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img{
+  height: 40px;
+}
+
+.nav{
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 700;
+}
+.nav__link{
+  color: #696871;
+  text-decoration: none;
+  transition: color .2s linear;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 50px;
+}
+.nav__link:hover{
+  color: #19191B;
+}
+.active{
+  color: #19191B;
+}
+.header__button{
+  background-color: #FF7143;
+  color: #fff
+}
+.header__button:hover{
+  background-color: #e85c2d;
+}
+.header__button:active{
+  background-color: #e53e07;
+}
+
+/* наступний блок іннер */
+.inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 105px;
+}
+.inner__info{
+  width: 100%;
+  max-width: 465px;
+}
+
+.inner__info h2{
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 77px;
+}
+
+.inner__info p{
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color:#696871;
+}
+.inner__button{
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.ib1{
+  background-color: #5454D4;
+  color:#fff;
+  transition: color .2s linear;
+  width: 214px;
+}
+.ib1:hover{
+  background-color: #4343cc;
+}
+.ib1:active{
+  color:#5454D4;
+  background-color: #fff;
+  border: 1px solid #5454D4;
+}
+.ib2{
+  color:#5454D4;
+  background-color: #fff;
+  border: 1px solid #5454D4;
+  transition: color .2s linear;
+  width: 214px;
+}
+.ib2:hover{
+  background-color: #f9f9f9;
+}
+.ib2:active{
+  background-color: #5454D4;
+  color:#fff;
+}
+.inner__hero img{
+height: 523px;  
+}
+
+/* 2 блок Субскріп */
+.subcrip{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 85px;
+}
+.subcrip__pos{
+  display: flex;
+  flex-direction: row;
+}
+.chart{
+padding-top: 55%;
+}
+.subcrip__info h3{
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 57px;
+  padding-bottom: 38px;
+}
+.subcrip__info input{
+  /* width: 302px; */
+  height: 60px;
+  border: 1px solid #7087FF;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 17px;
+  padding: 0 15px;
+  margin-right: 39px;
+}
+
+/* 3 блок з цінами */
+.pricing{
+  padding-top: 85px;
+  padding-bottom: 130px;
+}
+.pricing h2{
+  max-width: 50%;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  padding-bottom: 100px;
+}
+.price{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.paket{
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 441px;
+  background-color: #F8F8F8;
+  color:#696871;
+  border-radius: 10px;
+}
+.activePrice{
+  background: #FF7143;
+  box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+  color: #fff;
+}
+
+.paket p{
+  font-size: 18px;
+}
+.paket h4{
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 56px;
+  color: #1D293F;
+}
+.activePrice h4{
+  color: #fff;
+}
+.paket h4 span{
+  font-size: 28px;
+}
+.privileg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+.privileg p{
+  font-size: 17px;
+}
+.pricingBtn{
+  margin: 36px 22px 0;
+  width: 285px;
+  padding: 19px 42px;
+  border-radius: 10px;
+  border: 0;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 22px;
+  background-color: #FFFFFF;
+  color:#5454D4;
+  transition: color .2s linear;
+}
+.pricingBtn:hover{
+  background-color:#5454D4;
+  color:#FFF;
+}
+.pricingBtn:active{
+  background-color: #FFFFFF;
+  color:#5454D4;
+}
+.activePrice .pricingBtn{
+  transition: color .2s linear;
+  background: #9F3919;
+  color:#fff;
+}
+.activePrice .pricingBtn:hover{
+  background: #741e04;
+}
+.activePrice .pricingBtn:active{
+  background: #9F3919;
+}
+
+/* Футер */
+footer{
+  height: 145px;
+  background: rgba(255, 113, 67, 0.27);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+footer .nav__link:last-child{
+  margin: 0 0 0 50px;
+}
