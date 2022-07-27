@@ -1,0 +1,160 @@
+@media all and (max-width:1100px){
+  .container{
+    max-width: 90%;
+  }
+
+  .nav__link{
+    margin: 0 20px;
+  }
+ 
+  
+}
+@media all and (max-width:900px){
+  .nav__link{
+    margin: 0 15px;
+  }
+  .inner__info h2 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  .subcrip__info h3 {
+    font-size: 40px;
+  }
+  .subcrip__info input {
+    margin-right: 10px;
+  }
+  
+  .button {
+    padding: 19px 40px;
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .ib1, .ib2 {
+    width: 100%;
+    margin-right: 5px;
+  }
+  .ib2{
+    margin-right: 0;
+  }
+
+  .paket h4 {
+    font-size: 50px;
+    line-height: 45px;
+   
+  }
+}
+
+@media all and (max-width:768px){
+  .ib1, .ib2 {
+    margin-right: 0px;
+  }
+header .nav{
+  display: none;
+}
+.buter{
+  display: flex;
+}
+header {
+  height: 100px;
+}
+.inner {
+  flex-direction: column-reverse;
+  padding-top: 60px;
+}
+.subcrip {
+  flex-direction: column;
+  padding-top: 60px
+}
+.pricing h2 {
+  max-width: 100%;
+  font-size: 40px;
+  line-height: 40px;
+  padding-bottom: 50px;
+}
+.pricing {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.price {
+  flex-direction: column;
+}
+.paket {
+  margin-right: 0;
+  width: 100%;
+  margin-bottom: 15px;
+}
+}
+
+@media all and (max-width:530px){
+  .logo img {
+    height: 35px;
+}
+  .button {
+    padding: 12px 20px;
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .inner {
+    padding-top: 40px;
+  }
+  .inner__hero img {
+    
+    height: 300px;
+}
+.inner__info h2 {
+  font-size: 35px;
+  line-height: 35px;
+}
+.inner__info p {
+  font-size: 16px;
+  line-height: 20px;
+}
+.inner__button {
+  padding-top: 20px;
+}
+.subcrip__pos .pose {
+  height: 300px;
+}
+.chart {
+  padding-top: 0%;
+  height: 80%;
+}
+.subcrip__info h3 {
+  font-size: 35px;
+}
+.subcrip__info input {
+  height: 40px;
+}
+.sb{
+  padding: 8px 20px;
+}
+.subcrip__info h3 {
+  padding-bottom: 20px;
+}
+
+.pricing {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.pricing h2 {
+  font-size: 35px;
+  line-height: 35px;
+  padding-bottom: 20px;
+}
+
+.privileg {
+  width: 95%;
+  flex-direction: row;
+  padding-top: 20px;
+  justify-content: space-between;
+}
+.pricingBtn {
+  margin: 25px 0;
+  padding: 19px 0px;
+  width: 90%;
+}
+
+footer {
+  height: 100px;
+}
+}

@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/media.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Mulish&display=swap"
@@ -22,6 +23,12 @@
       <div class="container">
         <div class="logo"><a href="index.html"><img src="img/Logo.png" alt="Наше лого"></a></div>
         <nav class="nav">
+          <a class="active nav__link" href="#">Home</a>
+          <a class="nav__link" href="#">Features</a>
+          <a class="nav__link" href="#">Pricing</a>
+          <a class="nav__link" href="#">Blog</a>
+        </nav>
+        <nav class="buter">
           <a class="active nav__link" href="#">Home</a>
           <a class="nav__link" href="#">Features</a>
           <a class="nav__link" href="#">Pricing</a>
@@ -50,12 +57,14 @@
       <div class="subcrip">
         <div class="subcrip__pos">
           <div><img class="chart" src="img/chart.png" alt="Chart"></div>
-          <div><img src="img/pose.png" alt="Pose"></div>
+          <div><img class="pose" src="img/pose.png" alt="Pose"></div>
         </div>
         <div class="subcrip__info">
           <h3>Subscription index</h3>
-          <input type="email" placeholder="Email" size="30">
-          <button class="button ib1 sb">Try</button>
+          <div class="email">
+            <input type="email" placeholder="Email">
+            <button class="button ib1 sb">Try</button>
+          </div>
         </div>
       </div>
 
