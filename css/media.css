@@ -148,6 +148,16 @@ header {
   padding-top: 20px;
   justify-content: space-between;
 }
+.privileg p{
+  text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-right: 1px solid #d0d0d0;
+}
+.privileg p:last-child {
+  border-right: none;
+}
 .pricingBtn {
   margin: 25px 0;
   padding: 19px 0px;
